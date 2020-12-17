@@ -28,7 +28,7 @@ What we expect:
 
 * Results from your data exploration and an explanation about the solution you adopted.
 * Documentation of the results of your model, including the choice of model(s), metrics adopted and the final evaluation.
-* The training and evaluation code, ideally a separate script.
+* The training and evaluation code, ideally as separate scripts.
 
 The solution should just perform better than random, also we expect you to use a model that is not just rules-based.
 
