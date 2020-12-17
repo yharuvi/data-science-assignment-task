@@ -10,6 +10,7 @@ You have at your disposal a pre-labelled dataset that maps different articles an
 It's up to you now to help the company providing a solution for automatically categorizing articles.
 
 ## Assignment
+
 The repository contains a dataset with some english articles and some information about them:
 
 * category
@@ -25,18 +26,20 @@ You should make a pull request to this repository containing the solution. If yo
 
 What we expect:
 
-* Explanation about the solution you adopted and the results from your data exploration
-* Documentation of the results of your model, including the metrics adopted and the final evaluation
-* The training and evaluation code
+* results from your data exploration and an explanation about the solution you adopted.
+* Documentation of the results of your model, including the choice of model(s), metrics adopted and the final evaluation.
+* The training and evaluation code, ideally a separate script.
 
-The solution should just perform better than random, also we expect you to use model that is not just rules-based.
+The solution should just perform better than random, also we expect you to use a model that is not just rules-based.
 
-How to present the documentation and the code is up to you, whether to provide one or more jupyter notebooks or via a different mean.
+How to present the documentation and the code is up to you, whether to provide python scripts, jupyter notebooks or via a different mean. 
+
 
 ## Bonus
-Scripts to be run from the command line:
 
-* A script for training the dataset
-* A script for evaluating the dataset
-* A script to infer the category given an article
+Show off your engineering skills. What steps would you take to productionize this model? 
 
+We have listed some ideas below, but we would love to see the steps you would take. 
+* Wrap your model into an API and document your instructions on how to test it
+* Or.. Create a Docker image (or surprise us!) that can be used to run your code
+* Or.. Include some unit tests in your training code
